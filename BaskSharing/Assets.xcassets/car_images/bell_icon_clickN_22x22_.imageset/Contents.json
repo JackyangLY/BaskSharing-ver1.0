@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "bell_icon_clickN_22x22_.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "bell_icon_clickN_22x22_@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "bell_icon_clickN_22x22_@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

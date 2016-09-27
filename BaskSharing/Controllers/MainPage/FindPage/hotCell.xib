@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="hotCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snip20160824_6" translatesAutoresizingMaskIntoConstraints="NO" id="RdQ-cX-Bfq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelBrowse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLO-H5-E4F">
+                        <rect key="frame" x="29" y="181" width="88" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mam-5B-stG">
+                        <rect key="frame" x="29" y="132" width="33.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iLO-H5-E4F" firstAttribute="bottom" secondItem="RdQ-cX-Bfq" secondAttribute="bottom" id="7Kb-vA-cpD"/>
+                    <constraint firstItem="iLO-H5-E4F" firstAttribute="top" secondItem="Mam-5B-stG" secondAttribute="bottom" constant="28.5" id="FfB-CI-HYf"/>
+                    <constraint firstItem="Mam-5B-stG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="21" id="L7d-t5-TJ4"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="iLO-H5-E4F" secondAttribute="bottom" constant="-8" id="Ti4-ql-eQz"/>
+                    <constraint firstItem="RdQ-cX-Bfq" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="clx-rr-N53"/>
+                    <constraint firstItem="RdQ-cX-Bfq" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="mab-4w-zV3"/>
+                    <constraint firstItem="RdQ-cX-Bfq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="nJz-JH-uj1"/>
+                    <constraint firstItem="RdQ-cX-Bfq" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="ozj-zM-ADQ"/>
+                    <constraint firstItem="iLO-H5-E4F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="21" id="rpX-bS-MzT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="BackImageView" destination="RdQ-cX-Bfq" id="WF6-fJ-cYO"/>
+                <outlet property="LabelBrowse" destination="iLO-H5-E4F" id="GBh-5N-sxy"/>
+                <outlet property="LabelTitle" destination="Mam-5B-stG" id="oGP-pF-ULi"/>
+            </connections>
+            <point key="canvasLocation" x="267.5" y="200"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Snip20160824_6" width="108" height="108"/>
+    </resources>
+</document>

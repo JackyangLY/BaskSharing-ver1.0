@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "navigationButtonReturnClickN_15x21_.png"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "navigationButtonReturnClickN_15x21_@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "navigationButtonReturnClickN_15x21_@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

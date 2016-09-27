@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "FTrendBtn_Normal_106x36_.png"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "FTrendBtn_Normal_106x36_@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "FTrendBtn_Normal_106x36_@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
